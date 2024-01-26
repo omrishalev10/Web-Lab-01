@@ -1,0 +1,76 @@
+#calculator-container {
+  border: 2px solid lightgrey;
+  width: 750px;
+  min-height: 100px;
+  margin: 10px auto;
+  background-color: black;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  border: 2px solid black;
+  width: 500px;
+  min-height: 30px;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 550px; /* Adjust the width based on your needs */
+  margin: 0 auto; /* Center the container */
+}
+
+.numbersButton {
+  font-weight: bold;
+  width: 90px;
+  height: 45px;
+  color: black;
+  background-color: grey;
+  padding: 10px 11px;
+  margin: 0 5px; /* Adjust the margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.operationsButton {
+  font-weight: bold;
+  width: 90px;
+  height: 45px;
+  color: black;
+  background-color: orange;
+  padding: 10px 11px;
+  margin: 0 5px; /* Adjust the margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.otherButtons {
+  font-weight: bold;
+  width: 90px;
+  height: 45px;
+  color: black;
+  background-color: lightgrey;
+  padding: 10px 11px;
+  margin: 0 5px; /* Adjust the margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.numbersButton:hover,
+.operationsButton:hover,
+.otherButtons:hover {
+  background-color: lightblue; /* Darker shade on hover for numbers */
+}
